@@ -1,0 +1,801 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+/*---app Searchbox----*/
+.form{
+    border: 3px solid black;
+}
+.home{
+    color: white;
+    padding-right: 10vh;
+}
+.home:hover{
+    color: white;
+    padding-right: 10vh;
+}
+
+.search{
+    display: flex;
+    background: #012641;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    margin-bottom: 0;
+    height: 50px;
+}
+.searchbox1{
+    color: white;
+    width: 200px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.searchbox2{
+    color: white;
+    justify-content: space-around;
+}
+.searchbox3{
+    color: white;
+}
+.cart{
+    padding-left: 100px;
+    color: white;
+}
+
+/*---Nav Selection Box---*/
+.selection{
+    color: white;
+}
+.selection{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #60b3d1;
+    border: 3px solid black;
+    height: 50px;
+    color: white;
+}
+.selection1{
+    color:white;
+    text-decoration: none;
+
+}
+.selection1:hover{
+    color: blue;
+
+}
+.selection2{
+    font-size: 22px;;
+    color:black;
+    text-decoration: underline;
+
+}
+.selection2:hover{
+    color: blue;
+
+}
+
+/*---Suggestion Box----*/
+.suggestion{
+    margin-left: -5vh;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border: 3px solid black;
+    height: 30px;
+    color: white;
+    overflow-x: scroll;
+}
+
+
+
+
+
+///.suggestion{
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border: 3px solid black;
+    height: 30px;
+    color: white;
+    overflow-x: scroll;
+
+}
+button{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 3px solid white;
+    margin-left: 1vh;;;
+}
+a{
+    display: center;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+.d{
+    border-radius: 10px;;
+    margin-top: 5vh;;
+    margin-left: 197vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    width: 5vh;
+    height: 5vh;
+    background-color: #1b1e23;;
+    color: white;
+    position: fixed;
+    box-shadow: 0px 20px 10px gray;
+}
+.d:hover{
+    background-color: red;
+    color: aqua;
+}
+.pick{
+    border: 3px solid white;
+    padding-top: 10px;
+    padding-left: 20px;;
+    padding-right: 20px;;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    background: black;
+    color: white;
+    margin-left: 40vh;
+    margin-top: 15vh;
+    height: 5vh;
+}
+
+/*----H&W Conatinerbox----*/
+.boxcontainer{
+    height: 100vh;
+    margin-top: -15vh;;
+    margin-bottom: 100vh;;
+}
+
+.box1888{
+    border-radius: 10px;;
+    display: inline-block;
+    border: 3px solid black;
+    background-color: #012641;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    width: 50vh;
+    height: 40vh;
+}
+//.box1888{
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #012641;
+    margin-top: 30vh;
+    margin-left: 25vh;
+    width: 50vh;
+    height: 40vh;
+}
+.box2{
+    color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #012641;
+    width: 50vh;
+    height: 40vh;
+    position: relative;
+    margin-left: 75vh;
+    margin-top: -41vh;
+    margin-bottom: 10px;;
+
+}
+.box3{
+    overflow-y: scroll;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #012641;
+    width: 50vh;
+    height: 40vh;
+    margin-left: 135vh;
+    margin-top: -43vh;
+
+}
+.box4{
+    color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #1b1e23;
+    width: 50vh;
+    height: 40vh;
+    margin-top: 10vh;;
+    margin-left: 25vh;
+    margin-bottom: 10vh;;
+}
+.box5{
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: green;
+    width: 50vh;
+    height: 40vh;
+    margin-top: -51vh;
+    margin-left: 85vh;;
+}
+.box6{
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #1b1e23;
+    width: 50vh;
+    height: 40vh;
+    margin-top: -50vh;
+    margin-left: 145vh;;
+}
+.box7{
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #1b1e23;
+    width: 50vh;
+    height: 40vh;
+    margin-top: 0vh;
+    margin-left: 25vh;;
+}
+.box8{
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #1b1e23;
+    width: 50vh;
+    height: 40vh;
+    margin-top: 0vh;
+    margin-left: 85vh;;
+}
+.box9{
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: #1b1e23;
+    width: 50vh;
+    height: 40vh;
+    margin-top: 0vh;
+    margin-left: 145vh;;
+}
+.videobottom{
+    padding-left: 80vh;
+    color: white;
+    border-top-right-radius: 10px;;
+    border-top-left-radius: 10px;;
+    background-color: #1b1e23;;
+    margin-top: -132vh;
+    margin-right: 20vh;;
+    margin-left: 17vh;
+    width: 100vh;
+    height: 8vh;
+    position: fixed;
+}
+.videobottom:hover{
+    background-color: black;
+}
+.bottomform{
+    margin-top: -132vh;
+    position: fixed;
+    border-top-right-radius: 10px;
+    color: white;
+    width: 17vh;
+    height: 8vh;
+    background-color: red;
+    
+}
+.bottomform:hover{
+    background-color: purple;
+}
+.bottomform1{
+    position: fixed;
+border-top-left-radius: 10px;
+color: white;
+margin-top: -132vh;
+margin-left: 197vh;;
+width: 18vh;
+height: 8vh;
+background-color: blue;
+}
+.bottomform1:hover{
+    background-color: green;
+}
+
+/*----exvvv Attributes-----*/
+.div1{
+    align-content: center;
+    padding-left: 3px;;
+    margin-right: 10px;;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    justify-self: center;
+    font-size: 14px;
+    display: inline-block;
+    width: 49px;
+    height: 49px;;
+    border-radius: 10px;;
+    background-color: #f2f2f2;;
+    color: black;
+}
+.div1:hover{
+    background-color: lightgray;
+    color: #60b3d1;;
+}
+.noname1{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname1:hover{
+    color: #60b3d1;;
+}
+.noname11{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -65px;
+}
+.noname11:hover{
+    color: #60b3d1;;
+}
+.superman{
+    padding-top: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 10px;
+    justify-content: center;
+}
+.noname2{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname2:hover{
+    color: #60b3d1;;
+}
+.noname3{
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname3:hover{
+    color: #60b3d1;;
+}
+.noname4{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname4:hover{
+    color: #60b3d1;;
+}
+
+//.div1{
+    margin-top: 2vh;;
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;;
+    border-radius: 10px;;
+    background-color: black;
+    color: white;
+}
+.div1:hover{
+    color: blue;
+}
+.yoga1{
+    color: black;
+}
+
+.div2{
+    margin-right: 10px;;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.div2:hover{
+    background-color: lightgray;
+}
+//.div2{
+    margin-top: -12vh;;
+    margin-left: 13vh;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.pil{
+    font-size: 14px;;
+    color: white;
+    padding-left: 5px;
+}
+.pil:hover{
+    color: #60b3d1;
+}
+.div3{
+    margin-right: 10px;;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: purple;
+    color: white;
+}
+//.div3{
+    margin-top: -9vh;;
+    margin-left: 25vh;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: green;
+    color: white;
+}
+.boxdiv1{
+    border: 1px solid red;
+    justify-content: space-between;
+    margin-top: 30px;;
+    padding-left: 28px;;
+}
+.boxdiv2{
+    padding-left: 5vh;
+    margin-top: 35px;;
+    padding-bottom: 20px;;
+}
+.excersise{
+    background-color: black;
+    margin-left: 18vh;
+    color: white;
+}
+.nd{
+    background-color: black;
+    margin-left: 18vh;
+    color: white;
+}
+
+.div4{
+    margin-right: 10px;;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: purple;
+    color: white;
+}
+.div5{
+    margin-right: 10px;;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: blue;
+    color: white;
+}
+.div000{
+    border-bottom-left-radius: 10px;;
+    border-bottom-right-radius: 10px;;
+    position: absolute;
+    padding-left: 140px;
+    color: white;
+    background-color: black;
+    width: 50vh;
+    height: 5vh;;
+    margin-left: 70vh;
+}
+.button1{
+    display: flex;
+}
+
+
+/*---- container 2 -------*/
+
+
+.div1{
+    align-content: center;
+    padding-left: 3px;;
+    margin-right: 10px;;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    justify-self: center;
+    font-size: 14px;
+    display: inline-block;
+    width: 49px;
+    height: 49px;;
+    border-radius: 10px;;
+    background-color: #f2f2f2;;
+    color: black;
+}
+.div1:hover{
+    background-color: lightgray;
+    color: #60b3d1;;
+}
+.noname1{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname1:hover{
+    color: #60b3d1;;
+}
+.noname11{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -65px;
+}
+.noname11:hover{
+    color: #60b3d1;;
+}
+.superman{
+    padding-top: 5px;
+    margin-top: 50px;
+    color: black;
+    font-size: 10px;
+    justify-content: center;
+}
+.noname2{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname2:hover{
+    color: #60b3d1;;
+}
+.noname3{
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname3:hover{
+    color: #60b3d1;;
+}
+.noname4{
+    font-size: 12px;
+    color:white;
+    position: absolute;
+    margin-top: 55px;;
+    margin-bottom: -40px;;
+    margin-left: -55px;
+}
+.noname4:hover{
+    color: #60b3d1;;
+}
+
+//.div1{
+    margin-top: 2vh;;
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;;
+    border-radius: 10px;;
+    background-color: black;
+    color: white;
+}
+.div1:hover{
+    color: blue;
+}
+.yoga1{
+    color: black;
+}
+
+.div2{
+    margin-right: 10px;;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.div2:hover{
+    background-color: lightgray;
+}
+//.div2{
+    margin-top: -12vh;;
+    margin-left: 13vh;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.pil{
+    font-size: 14px;;
+    color: white;
+    padding-left: 5px;
+}
+.pil:hover{
+    color: #60b3d1;
+}
+.div3{
+    margin-right: 10px;;
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: purple;
+    color: white;
+}
+//.div3{
+    margin-top: -9vh;;
+    margin-left: 25vh;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: green;
+    color: white;
+}
+.boxdiv1{
+    border: 1px solid red;
+    justify-content: space-between;
+    margin-top: 30px;;
+    padding-left: 28px;;
+}
+.boxdiv2{
+    padding-left: 5vh;
+    margin-top: 35px;;
+    padding-bottom: 20px;;
+}
+.excersise{
+    background-color: black;
+    margin-left: 18vh;
+    color: white;
+}
+.nd{
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: green;
+    margin-left: 18vh;
+    color: white;
+}
+
+.div4{
+    margin-right: 10px;;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: purple;
+    color: white;
+}
+.div5{
+    margin-right: 10px;;
+    display: inline-block;
+    width: 50px;
+    height: 50px;;
+    border-radius: 10px;;
+    background-color: blue;
+    color: white;
+}
+.div000{
+    border-bottom-left-radius: 10px;;
+    border-bottom-right-radius: 10px;;
+    position: absolute;
+    padding-left: 140px;
+    color: white;
+    background-color: black;
+    width: 50vh;
+    height: 5vh;;
+    margin-left: 70vh;
+}
+.button1{
+    display: flex;
+}
+
+
+
+.dubai{
+    border-radius: 5px;
+    margin-top: -5vh;;
+    margin-left: -5vh;;
+    width: 50vh;
+    height: 35vh;
+}
+.jamaica{
+    border-radius: 5px;
+    margin-top: vh;;
+    margin-left: vh;;
+    width: 50vh;
+    height: 35vh;
+}
+.visa{
+    border-radius: 5px;
+    margin-top: -5vh;;
+    margin-left: -5vh;;
+    width: 50vh;
+    height: 35vh;
+}
+
+.title{
+    border-top: 10px black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 135vh;
+    height: 40vh;;
+    margin-top: 5vh;
+    margin-left: 40vh;;
+}
+.img1{
+    width: 40vh;
+    height: 40vh;;
+    border: 3px black;
+    box-shadow: 10px 10px 10px;
+
+}
+.img1:hover{
+    background-color: black;
+    border-color: white;
+}
+.img2{
+    box-shadow: 10px 10px 10px;
+    width: 45vh;
+    height: 40vh;;
+    
+}
+.img3{
+    box-shadow: 10px 10px 10px;
+    width: 40vh;
+    height: 40vh;;
+}
